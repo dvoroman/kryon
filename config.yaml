@@ -1,4 +1,4 @@
-exchange_id: bybit
+exchange_id: okx
 pairs:
   - BTC/USDT:USDT
   - ETH/USDT:USDT
