@@ -1,4 +1,4 @@
-exchange_id: binanceusdm
+exchange_id: bybit
 pairs:
   - BTC/USDT:USDT
   - ETH/USDT:USDT
