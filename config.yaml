@@ -1,0 +1,28 @@
+exchange_id: binanceusdm
+pairs:
+  - BTC/USDT:USDT
+  - ETH/USDT:USDT
+  - SOL/USDT:USDT
+  - BNB/USDT:USDT
+
+scan_timeframe: 15m
+ctx_timeframe: 1h
+limit_bars: 600
+
+label:
+  tp_atr: 1.5
+  sl_atr: 1.0
+  horizon_bars: 48
+
+thresholds:
+  p_min: 0.58
+  ev_min: 0.07
+  cooldown_minutes: 360
+
+risk:
+  risk_per_trade_pct: 0.7
+  leverage: 5
+
+telegram:
+  send_markdown: true
+  dry_run: false

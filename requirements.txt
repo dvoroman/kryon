@@ -1,0 +1,7 @@
+ccxt==4.3.79
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+ta==0.11.0
+PyYAML==6.0.2
+requests==2.32.3
